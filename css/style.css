@@ -91,7 +91,7 @@ p {
     color: #016999;
     margin-top: 20px;
     border: 1px solid #d8d8d8;
-    width: 160px;
+    width: 100%;
     text-align: left;
     padding: 10px 8px 10px 8px;
     background: linear-gradient(to right, #e8e8e8, #f6f6f6, #e8e8e8, #eee);
@@ -108,6 +108,7 @@ p {
 .icons a {
     display: inline-block;
     width: 50px;
+
     height: 50px;
     box-shadow: 1px 2px 3px rgb(166, 160, 160);
     margin: 2px;
@@ -158,6 +159,7 @@ p {
 h3 {
     font: 1.1em/14px Georgia serif;
     color: #444444;
+    margin-top: 50px;
 }
 
 #dotted {
@@ -169,7 +171,7 @@ input {
     margin: 15px 0px;
     border: 1px solid #cfcfcf;
     border-radius: 4px;
-    width: 296px;
+    width: 100%;
     height: 33px;
     color: #d4d4d4;
     padding: 13px;
@@ -177,7 +179,7 @@ input {
 }
 
 textarea {
-    width: 296px;
+    width: 100%;
     height: 134px;
     margin: 15px 0px;
     border: 1px solid #cfcfcf;
@@ -188,11 +190,9 @@ textarea {
 }
 
 .news img {
-    display: inline-block;
-    width: 65px;
-    height: 65px;
+    width: 25%;
+    height: 25%;
     border: 1px solid black;
-    float: left;
     border-radius: 4px;
     background-color: #f3f3f3;
     border: 1px solid #e1e1e1;
@@ -201,7 +201,7 @@ textarea {
 
 .text {
     display: inline-block;
-    width: 110px;
+    width: 100%;
     margin: 15px 0px 0px 10px;
 }
 
@@ -209,7 +209,7 @@ textarea {
     border: none;
     border-top: 1px dashed #e5e5e5;
     margin: -7px 0px 1px 0px;
-    width: 350px;
+    width: 100%;
 }
 
 #newsletter {
@@ -224,7 +224,7 @@ textarea {
     border: 1px solid #004a80;
     border-radius: 3px;
     box-shadow: 0.5px 1px 2px rgba(1, 80, 113, 0.5);
-    width: 160px;
+    width: 100%;
     text-align: left;
     padding: 10px 8px 10px 8px;
     background: linear-gradient(to right, #4578af, #4791dc, #3b92f0, #3b7cc2, #4578af);
@@ -244,34 +244,34 @@ textarea {
 }
 
 .leftside p {
-    font: 11px/10px Helvetica;
+    font: .7em/1rem Helvetica;
     color: #999999;
-    width: 400px;
-    height: 10px;
     margin: 15px 0px 10px 0px;
+    padding-left: 10px;
+
 }
 
 .rightside p {
-    float: right;
     font: 11px/10px Helvetica;
     color: #999999;
-    width: 400px;
-    height: 10px;
-    margin-top: -58px;
+    margin-top: 30px;
+    padding-left: 10px;
 }
 
 .leftside a {
     font: 11px/10px Helvetica;
     color: #999999;
     margin-right: 3px;
+
 }
 
 #above li {
-    display: inline-block;
+    text-align: center;
     border-right: 1px solid #999;
     line-height: 4px;
     padding-right: 2px;
     padding-left: 2px;
+    margin-top: 10px;
 }
 
 #above li:last-child {
@@ -279,7 +279,7 @@ textarea {
 }
 
 #bottom li {
-    display: inline-block;
+    text-align: center;
     border-right: 1px solid #999;
     line-height: 4px;
     padding-right: 2px;
@@ -292,7 +292,6 @@ textarea {
 }
 
 footer {
-    height: 183px;
     background: #333;
     border-top: 10px solid #4c4c4c;
 }
@@ -327,6 +326,74 @@ footer {
     .col {
         width: 33.33%;
         float: left;
+    }
 
+    #btn {
+        width: 160px;
+    }
+
+    input {
+        width: 296px;
+    }
+
+    textarea {
+        width: 296px;
+    }
+
+    .news img {
+        display: inline-block;
+        width: 65px;
+        height: 65px;
+        float: left;
+    }
+
+    .text {
+        width: 110px;
+    }
+
+    #line {
+        width: 350px;
+    }
+
+    #btn2 {
+        width: 160px;
+    }
+
+    .leftside p {
+        width: 400px;
+        height: 10px;
+    }
+
+    .leftside p {
+        width: 400px;
+        height: 10px;
+        padding-left: 0px;
+    }
+
+    .rightside p {
+        float: right;
+        width: 400px;
+        height: 10px;
+        margin-top: -58px;
+        padding-left: 0px;
+    }
+
+    #above li {
+        display: inline-block;
+
+    }
+
+    #bottom li {
+        display: inline-block;
+
+    }
+
+    footer {
+        height: 183px;
+
+    }
+
+    h3 {
+        margin-top: 0px;
     }
 }
