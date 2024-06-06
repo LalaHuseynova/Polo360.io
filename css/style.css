@@ -9,14 +9,12 @@ header {
 }
 
 img {
-
     width: 25%;
 }
 
 #menu li {
     font: .7em Tahoma sans-serif;
     color: #b7b7b7;
-
 }
 
 #menu li a {
@@ -28,7 +26,6 @@ img {
 
 
 main {
-
     background: #fff url('../img/mainbg.jpg') repeat-x;
     padding-top: 22px;
 }
@@ -38,18 +35,13 @@ main {
     border: 1px solid #c6c6c6;
     border-radius: 8px;
     background: url(../img/slider1.jpg) center;
-
-
 }
 
 h1 {
     text-align: center;
-    font: 1.5em "Georgia ";
+    font: bold 1.5em Georgia serif;
     color: #000000;
-    font-weight: bold;
-
     margin: 15px 0px 15px 0px;
-
 }
 
 hr {
@@ -60,26 +52,20 @@ hr {
 h2 {
     font: 1.3em Georgia serif;
     color: #11719e;
-
-
-
 }
 
 h6 {
     font: .75em Helvetica sans-serif;
     color: #8c8c8c;
     padding: 3px 0px 0px 0px;
-
 }
 
 p {
     width: 291px;
     height: 89px;
-    font-size: 13px;
     letter-spacing: 1px;
-    line-height: 18px;
     color: #3e3e3e;
-    font-family: "Helvetica";
+    font: 13px/18px "Helvetica";
 }
 
 .row {
@@ -101,9 +87,8 @@ p {
 
 #btn {
     display: inline-block;
-    font-size: 12px;
+    font: 12px Helvetica sans-serif;
     color: #016999;
-    font-family: "Helvetica";
     margin-top: 20px;
     border: 1px solid #d8d8d8;
     width: 160px;
@@ -115,75 +100,195 @@ p {
 #btn span {
     float: right;
 }
-.icons{
-   margin: -20px 7px 45px 0px;
+
+.icons {
+    margin: -20px 7px 45px 0px;
 }
-.icons a{
+
+.icons a {
     display: inline-block;
     width: 50px;
     height: 50px;
     box-shadow: 1px 2px 3px rgb(166, 160, 160);
-    margin:2px;
+    margin: 2px;
     border-radius: 7px;
     background: url(../img/icons.png);
 }
-#rss{ background-position: 0px 0px;}
-#fb{background-position: -50px 0px;}
-#link{background-position: -100px 0px;}
-#you{background-position: -150px 0px;}
-#twit{background-position: -200px 0px;}
-#rss:hover{ background-position: 0px -50px;}
-#fb:hover{background-position: -50px -50px;}
-#link:hover{background-position: -100px -50px;}
-#you:hover{background-position: -150px -50px;}
-#twit:hover{background-position: -200px -50px;}
-h3{
-    font:1.1em Georgia serif;
 
-line-height: 14px;
-color: #444444;
-
+#rss {
+    background-position: 0px 0px;
 }
-#dotted{
+
+#fb {
+    background-position: -50px 0px;
+}
+
+#link {
+    background-position: -100px 0px;
+}
+
+#you {
+    background-position: -150px 0px;
+}
+
+#twit {
+    background-position: -200px 0px;
+}
+
+#rss:hover {
+    background-position: 0px -50px;
+}
+
+#fb:hover {
+    background-position: -50px -50px;
+}
+
+#link:hover {
+    background-position: -100px -50px;
+}
+
+#you:hover {
+    background-position: -150px -50px;
+}
+
+#twit:hover {
+    background-position: -200px -50px;
+}
+
+h3 {
+    font: 1.1em/14px Georgia serif;
+    color: #444444;
+}
+
+#dotted {
     border: none;
     border-top: 1px dashed #e5e5e5;
 }
-input{
+
+input {
     margin: 15px 0px;
-    border:1px solid #cfcfcf;
+    border: 1px solid #cfcfcf;
     border-radius: 4px;
     width: 296px;
-height: 33px;
-
-font-size: 10px;
-line-height: 14px;
-color: #d4d4d4;
-font-family: "Verdana";
-padding: 13px;
+    height: 33px;
+    color: #d4d4d4;
+    padding: 13px;
+    font: 10px/14px Verdana;
 }
-textarea{
+
+textarea {
     width: 296px;
-height: 134px;
-margin: 15px 0px;
-border:1px solid #cfcfcf;
-border-radius: 4px;
-font-size: 10px;
-line-height: 14px;
-color: #d4d4d4;
-font-family: "Verdana";
-padding: 13px;
+    height: 134px;
+    margin: 15px 0px;
+    border: 1px solid #cfcfcf;
+    border-radius: 4px;
+    font: 10px/14px Verdana;
+    color: #d4d4d4;
+    padding: 13px;
 }
-.news a{
-display: inline-block;
-width: 45px;
-height: 45px;
-border: 1px solid black;
-float: left;
 
-border-radius: 4px;
-background-color: #f3f3f3;
-border: 1px solid #e1e1e1;
-padding: 6px;
+.news img {
+    display: inline-block;
+    width: 65px;
+    height: 65px;
+    border: 1px solid black;
+    float: left;
+    border-radius: 4px;
+    background-color: #f3f3f3;
+    border: 1px solid #e1e1e1;
+    padding: 6px;
+}
+
+.text {
+    display: inline-block;
+    width: 110px;
+    margin: 15px 0px 0px 10px;
+}
+
+#line {
+    border: none;
+    border-top: 1px dashed #e5e5e5;
+    margin: -7px 0px 1px 0px;
+    width: 350px;
+}
+
+#newsletter {
+    margin-top: -40px;
+    height: 50px;
+}
+
+#btn2 {
+    display: inline-block;
+    color: #ffffff;
+    font: 13px Georgia;
+    border: 1px solid #004a80;
+    border-radius: 3px;
+    box-shadow: 0.5px 1px 2px rgba(1, 80, 113, 0.5);
+    width: 160px;
+    text-align: left;
+    padding: 10px 8px 10px 8px;
+    background: linear-gradient(to right, #4578af, #4791dc, #3b92f0, #3b7cc2, #4578af);
+    margin-left: 2px;
+}
+
+.send {
+    margin-top: 22px;
+}
+
+.visit {
+    margin-top: 15px;
+}
+
+#btn2 span {
+    float: right;
+}
+
+.leftside p {
+    font: 11px/10px Helvetica;
+    color: #999999;
+    width: 400px;
+    height: 10px;
+    margin: 15px 0px 10px 0px;
+}
+
+.rightside p {
+    float: right;
+    font: 11px/10px Helvetica;
+    color: #999999;
+    width: 400px;
+    height: 10px;
+    margin-top: -58px;
+}
+
+.leftside a {
+    font: 11px/10px Helvetica;
+    color: #999999;
+    margin-right: 3px;
+}
+
+#above li {
+    display: inline-block;
+    border-right: 1px solid #999;
+    line-height: 4px;
+    padding-right: 2px;
+    padding-left: 2px;
+}
+
+#above li:last-child {
+    border-right: none;
+}
+
+#bottom li {
+    display: inline-block;
+    border-right: 1px solid #999;
+    line-height: 4px;
+    padding-right: 2px;
+    padding-left: 2px;
+    margin-top: 10px;
+}
+
+#bottom li:last-child {
+    border-right: none;
 }
 
 footer {
@@ -199,9 +304,7 @@ footer {
     }
 
     header {
-
         text-align: initial;
-
     }
 
     #menu {
@@ -224,7 +327,6 @@ footer {
     .col {
         width: 33.33%;
         float: left;
-        /* WHY THIS??? */
-    }
 
+    }
 }
