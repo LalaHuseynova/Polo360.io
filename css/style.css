@@ -316,17 +316,7 @@ footer {
         padding: 0px 10px 10px 10px;
         border-left: 1px dashed #d6d6d6;
     }
-
-    .row::after {
-        display: table;
-        content: '';
-        clear: both;
-    }
-
-    .col {
-        width: 33.33%;
-        float: left;
-    }
+    .row{display: flex;}
 
     #btn {
         width: 160px;
